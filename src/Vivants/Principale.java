@@ -15,11 +15,6 @@ public class Principale {
     
     public static void main(String[] args) {
 	
-	//humain.setNbrePieds(Integer.parseInt(JOptionPane.showInputDialog(null, "Combien a-t-il de pieds ?", "Pieds", JOptionPane.QUESTION_MESSAGE)));
-	
-	//JOptionPane.showConfirmDialog(null, "A-t-il un emploi ?", "Emploi", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-	
-	Humains marcel = humain;
 	
 	
     }
