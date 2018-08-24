@@ -20,8 +20,8 @@ public class Chats extends Vivants{
 
     @Override
     public String toString() {
-	return "Chats [nbrePattes=" + nbrePattes + ", nourriture=" + nourriture + ", boisson=" + boisson
-		+ ", communication=" + communication + ", surnom=" + surnom + "]";
+	return " Le chat marche à "+nbrePattes+" pattes, mange " + nourriture + ", boit" + boisson
+		+ ", communique en " + communication + " et son surnom est " + surnom;
     }
     
     

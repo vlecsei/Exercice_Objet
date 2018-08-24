@@ -7,8 +7,7 @@ public class Vivants {
     static String boisson;
     static String communication;
     static String surnom;
-    
-    
+   
     
     
   // GETTERS ET SETTERS---------------------------------------------------------------------------------------------------
@@ -59,11 +58,13 @@ public class Vivants {
     public static void main(String[] args) {
 	
 	
+	Chats minou = new Chats("des croquettes", " de l'eau", "miaulant", "Minou", 4);
 	
+	System.out.println("Minou : "+minou);
 	
+	Humains paul = new Humains( "de la viande", "du coca cola", "parlant", "Paulo", "Dupont", 2, false);
 	
-	
-	
+	System.out.println("Paul :"+paul);
 
     }
 

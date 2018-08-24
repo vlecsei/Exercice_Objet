@@ -14,18 +14,26 @@ public class Humains extends Vivants {
     public void setNom(String nom) {
         this.nom = nom;
     }
+    
     public int getNbrePieds() {
         return nbrePieds;
     }
     public void setNbrePieds(int nbrePieds) {
         this.nbrePieds = nbrePieds;
     }
+    
     public boolean isEmploi() {
-        return emploi;
+	return emploi;
+         /*if (emploi == false) {
+            return System.out.println("ne travaille pas");
+        }else{
+            return System.out.println("ne travaille pas");
+            };*/
     }
     public void setEmploi(boolean emploi) {
         this.emploi = emploi;
     }
+    
     public Humains(String nourriture, String boisson, String communication, String surnom, String nom, int nbrePieds,
 	    boolean emploi) {
 	super(nourriture, boisson, communication, surnom);
@@ -35,8 +43,8 @@ public class Humains extends Vivants {
     }
     @Override
     public String toString() {
-	return "Humains [nom=" + nom + ", nbrePieds=" + nbrePieds + ", emploi=" + emploi + ", nourriture=" + nourriture
-		+ ", boisson=" + boisson + ", communication=" + communication + ", surnom=" + surnom + "]";
+	return "L'humain s'appelle  " + nom + ", marche sur " + nbrePieds + " pied(s), " + emploi + ", mange " + nourriture
+		+ ", boit " + boisson + ", communique en " + communication + " et son surnom est " + surnom;
     }
     
     
