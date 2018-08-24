@@ -22,13 +22,14 @@ public class Humains extends Vivants {
         this.nbrePieds = nbrePieds;
     }
     
-    public boolean isEmploi() {
-	return emploi;
-         /*if (emploi == false) {
-            return System.out.println("ne travaille pas");
+    public String /*boolean*/ isEmploi() {
+	if (emploi == false) {
+            return "ne travaille pas";
         }else{
-            return System.out.println("ne travaille pas");
-            };*/
+           return "travaille";
+            }
+	/*return emploi;*/
+         
     }
     public void setEmploi(boolean emploi) {
         this.emploi = emploi;
@@ -43,7 +44,7 @@ public class Humains extends Vivants {
     }
     @Override
     public String toString() {
-	return "L'humain s'appelle  " + nom + ", marche sur " + nbrePieds + " pied(s), " + emploi + ", mange " + nourriture
+	return "L'humain s'appelle  " + nom + ", marche sur " + nbrePieds + " pied(s), " + isEmploi() + ", mange " + nourriture
 		+ ", boit " + boisson + ", communique en " + communication + " et son surnom est " + surnom;
     }
     

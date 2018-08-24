@@ -62,7 +62,7 @@ public class Vivants {
 	
 	System.out.println("Minou : "+minou);
 	
-	Humains paul = new Humains( "de la viande", "du coca cola", "parlant", "Paulo", "Dupont", 2, false);
+	Humains paul = new Humains( "de la viande", "du coca cola", "parlant", "Paulo", "Dupont", 2, true);
 	
 	System.out.println("Paul :"+paul);
 
